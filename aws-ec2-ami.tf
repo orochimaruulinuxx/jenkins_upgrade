@@ -14,7 +14,7 @@ resource "aws_instance" "jenkins_ec2_instance" {
 
   tags = {
     Name  = "jenkins-server"
-    Owner = "Hermann90"
+    Owner = "dev"
   }
 }
 
